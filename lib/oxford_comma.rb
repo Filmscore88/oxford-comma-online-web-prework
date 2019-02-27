@@ -5,7 +5,7 @@ array.join
 elsif array.length==2 
 array.join(" and ")
 else
-
+array.map! { |e| e == "hello" ? "hi" : e }
 
 end 
 end
