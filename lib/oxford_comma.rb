@@ -7,7 +7,7 @@ elsif array.length==2
 array.join(" and ")
 else
 x=array.last
-array[-1]=" and #{x}"
-array.join(" , ")
+array[-1]="and #{x}"
+array.join(" ,")
 end
 end
