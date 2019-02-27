@@ -6,7 +6,7 @@ array.join
 elsif array.length==2 
 array.join(" and ")
 else
-array.join(-2 ,"and")
+array.join
 array.join(",")
 end
 end
