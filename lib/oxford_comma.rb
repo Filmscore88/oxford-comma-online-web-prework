@@ -3,7 +3,7 @@ def oxford_comma(array)
 if array.length<=1 
 array.join
 else 
-array.last do |y| y="and"+y
+array.[-1]
 array<<y
 end 
 array.join(",")
