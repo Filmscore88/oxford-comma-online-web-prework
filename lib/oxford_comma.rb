@@ -1,12 +1,12 @@
 def oxford_comma(array)
-x=""
+x=[]
 if array.length<=1 
 array.join
 elsif array.length==2 
 array.join(" and ")
 else
 array.map! do |e| e == array.last ? "and #{e}" : e 
-array<<e
+x.<<e
 end 
-puts array 
+x 
 end
