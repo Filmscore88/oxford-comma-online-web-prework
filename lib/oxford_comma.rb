@@ -8,6 +8,6 @@ array.join(" and ")
 else
 x=array.last
 array[-1]="and #{x}"
-array.join(",")
+array.join(", ")
 end
 end
