@@ -1,10 +1,10 @@
 def oxford_comma(array)
-#x="and"
+x=""
 if array.length<=1 
 array.join
 else 
-array.[-1]
-array<<y
+x="and #{array.[-1]}"
+array<<x 
 end 
 array.join(",")
 end 
